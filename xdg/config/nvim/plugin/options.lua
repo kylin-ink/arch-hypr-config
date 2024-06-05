@@ -87,7 +87,7 @@ opt.fillchars = {
 }
 
 if not vim.g.vscode then
-  vim.cmd.colorscheme("vscode")
+  vim.cmd.colorscheme("tokyonight-night")
 else
   vim.notify = require("vscode-neovim").notify
 end
